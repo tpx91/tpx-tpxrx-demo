@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/usermanagement/domain",
+  "sourceRoot": "libs/usermanagement/domain/src",
+  "prefix": "tpx-tpxrx-demo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/usermanagement/domain"],
+      "options": {
+        "jestConfig": "libs/usermanagement/domain/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/usermanagement/domain/src/**/*.ts",
+          "libs/usermanagement/domain/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

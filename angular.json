@@ -1,7 +1,9 @@
 {
   "version": 2,
   "projects": {
+    "api": "libs/api",
     "demo": "apps/demo",
-    "demo-e2e": "apps/demo-e2e"
+    "demo-e2e": "apps/demo-e2e",
+    "usermanagement-domain": "libs/usermanagement/domain"
   }
 }
