@@ -2,6 +2,7 @@ import { ActionCreator, on, ReducerTypes } from '@ngrx/store';
 import * as UserActions from './user.actions';
 import { getUserResetsOns } from './user.reducer.resets';
 import {User} from '@tpx-tpxrx-demo/api';
+import {replaceArrayItem} from '@tpx1/util';
 
 export interface UserState {
   user?: User;

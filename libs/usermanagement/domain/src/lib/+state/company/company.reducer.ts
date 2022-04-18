@@ -2,6 +2,7 @@ import { ActionCreator, on, ReducerTypes } from '@ngrx/store';
 import * as CompanyActions from './company.actions';
 import { getCompanyResetsOns } from './company.reducer.resets';
 import {Company} from '@tpx-tpxrx-demo/api';
+import {replaceArrayItem} from '@tpx1/util';
 
 export interface CompanyState {
   company?: Company;
