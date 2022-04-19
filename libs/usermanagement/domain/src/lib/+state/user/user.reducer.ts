@@ -22,9 +22,6 @@ export interface UserState {
   deleteUserPending?: boolean;
   deleteUserSuccess?: boolean;
   deleteUserFailure?: Error;
-  resetUserListPending?: boolean;
-  resetUserListSuccess?: boolean;
-  resetUserListFailure?: Error;
 }
 
 export const userInitialState: UserState = {

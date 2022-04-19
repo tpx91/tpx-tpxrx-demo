@@ -22,9 +22,6 @@ export interface CompanyState {
   deleteCompanyPending?: boolean;
   deleteCompanySuccess?: boolean;
   deleteCompanyFailure?: Error;
-  resetCompanyListPending?: boolean;
-  resetCompanyListSuccess?: boolean;
-  resetCompanyListFailure?: Error;
 }
 
 export const companyInitialState: CompanyState = {
